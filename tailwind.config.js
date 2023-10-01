@@ -30,7 +30,11 @@ export default {
           700: '#005c5c',
           800: '#004848',
           900: '#003737',
-        }
+        },
+        section: '#141414',
+        grey: '#616163',
+        home: '#1B233D'
+
       },
       fontFamily: {
         sora: ['Sora', 'sans-serif'],
