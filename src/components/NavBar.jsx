@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Logo from '../assets/Logo.png';
 
 const NavBar = () => {
@@ -13,7 +14,7 @@ const NavBar = () => {
           <p>How It Works</p>
         </div>
         <div className='font-semibold text-lg text-primary-500 font-sora'>
-          <p>Get Started</p>
+          <Link to={`/get-started`}><p>Get Started</p></Link>
         </div>
       </nav>
     </>

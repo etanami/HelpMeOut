@@ -39,7 +39,8 @@ export default {
       fontFamily: {
         sora: ['Sora', 'sans-serif'],
         inter: ['Inter', 'sans-serif'],
-        'work-sans': ['Work Sans', 'sans-serif']
+        'work-sans': ['Work Sans', 'sans-serif'],
+        sen: ['Sen', 'sans-serif']
       }
     },
   },
