@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import ErrorPage from './pages/ErrorPage.jsx'
 import Signup from './components/Signup.jsx'
+import Video from './pages/VideoReady.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: '/get-started',
     element: <Signup />,
+  },
+  {
+    path: '/videos/1',
+    element: <Video />,
   }
 ])
 

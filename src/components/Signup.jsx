@@ -3,6 +3,8 @@ import Facebook from "../images/Facebook.png";
 import Logo from "../assets/Logo.png";
 import Or from "../images/Or.png";
 
+import { Link } from "react-router-dom";
+
 const Signup = () => {
   return (
     <div className="px-28 py-20">
@@ -43,7 +45,9 @@ const Signup = () => {
             <input className="p-3 border border-[#B6B3C6] rounded-xl w-full" type="password" name="password" placeholder="Enter your Password"/>
           </div>
         </div>
-        <button className="p-4 bg-primary-500 text-white rounded-xl">Sign Up</button>
+        <Link to={`/videos/1`}>
+          <button className="p-4 bg-primary-500 text-white rounded-xl w-full">Sign Up</button>
+        </Link>
       </div>
     </div>
   );
